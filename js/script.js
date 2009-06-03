@@ -1,4 +1,4 @@
-var GB_ROOT_DIR = "http://www.sputtr.com/greybox/";
+var GB_ROOT_DIR = "http://github.com/motaheri/vibe/raw/master/graybox/";
 function setButtonText(t)
 {
     document.getElementById("searchButton").value=t;
