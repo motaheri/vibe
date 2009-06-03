@@ -749,7 +749,11 @@ function getResults()
     {
         var submitto = 'http://listentoyoutube.com/' + encodeURI(ds.value);
         var name = 'youtube -> mp3 Search Results'
-    }
+    } else {
+		var submitto = 'http://downloads.nl/results/mp3/1/' + encodeURI(ds.value);
+        var name = 'downloads.nl (best) Search Results'
+		
+	}
     if (windowTarget == "self")
     {
         document.location.href = submitto;
