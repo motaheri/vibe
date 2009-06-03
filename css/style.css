@@ -438,7 +438,7 @@ iframe {
 	margin-right: 5px;
 	vertical-align: middle;
 }
-#footer ul li.plead {
+#footer ul li.plead a {
 	color: #888;	
 }
 #footer ul li.last {
