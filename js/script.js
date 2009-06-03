@@ -100,7 +100,7 @@ function getResults()
     else if (searchvar=='1024')
     {
         var submitto = 'http://media-convert.com/' + encodeURI(ds.value);
-        var name = 'MConvert (covert formats) Search Results'
+        var name = 'MConvert (convert formats) Search Results'
     }
     else if (searchvar=='1025')
     {
