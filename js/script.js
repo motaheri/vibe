@@ -685,6 +685,11 @@ function getResults()
         var submitto = 'http://beemp3.com/index.php?Submit=Search&st=all&q=' + encodeURI(ds.value);
         var name = 'beeMP3 Search Results'
     }
+	else if (searchvar=='1045')
+    {
+        var submitto = 'http://file2hd';
+        var name = 'file2hd Search Results'
+    }
     else if (searchvar=='1029')
     {
         var submitto = 'http://hypem.com/search/' + encodeURI(ds.value);
