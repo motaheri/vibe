@@ -14,7 +14,7 @@ GreyBox=new AJS.Class(
         this.root_dir=GB_ROOT_DIR;
         this.callback_fns=[];
         this.reload_on_close=false;
-        this.src_loader=this.root_dir+"loader_frame.html";
+        this.src_loader="http://www.github.com/motaheri/vibe/raw/master/graybox/loader_frame.html";
         var _3=window.location.hostname.indexOf("www");
         var _4=this.src_loader.indexOf("www");
         if(_3!=-1&&_4==-1)
