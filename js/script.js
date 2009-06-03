@@ -176,19 +176,9 @@ function getResults()
         var name = 'downloads.nl (best) Search Results'
 		
 	}
-    if (windowTarget == "self")
-    {
-        document.location.href = submitto;
-        return false;
-    }
-    else if (windowTarget == "new")
+	if (windowTarget == "new")
     {
         window.open(submitto);
         return false;
-    }
-    else if (windowTarget == "iframe")
-    {
-        GB_showPage(name, submitto);
-        return false
     }
 }
