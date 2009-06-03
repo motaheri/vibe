@@ -712,42 +712,42 @@ function getResults()
     }
     else if (searchvar=='1034')
     {
-        var submitto = 'http://video2mp3.net/' + encodeURI(ds.value);
+        var submitto = 'http://video2mp3.net/';
         var name = 'video2mp3 (youtube to mp3 convert) Search Results'
     }
     else if (searchvar=='1035')
     {
-        var submitto = 'http://vixy.net/' + encodeURI(ds.value);
+        var submitto = 'http://vixy.net/';
         var name = 'vixy (youtube to other video formats convert) Search Results'
     }
     else if (searchvar=='1036')
     {
-        var submitto = 'http://feelingtea.com/' + encodeURI(ds.value);
+        var submitto = 'http://feelingtea.com/';
         var name = 'feelingtea (download .flv video file) Search Results'
     }
     else if (searchvar=='1037')
     {
-        var submitto = 'http://www.listentoyoutube.com/index.php' + encodeURI(ds.value);
+        var submitto = 'http://www.listentoyoutube.com/index.php';
         var name = ' ListenToYouTube (youtube to mp3 convert) Search Results'
     }
     else if (searchvar=='1038')
     {
-        var submitto = 'http://video2mp3.net/' + encodeURI(ds.value);
+        var submitto = 'http://video2mp3.net/';
         var name = 'youtube -> mp3 Search Results'
     }
     else if (searchvar=='1039')
     {
-        var submitto = 'http://video2mp3.net/' + encodeURI(ds.value);
+        var submitto = 'http://video2mp3.net/';
         var name = 'youtube -> mp3 (high quality) Search Results'
     }
     else if (searchvar=='1040')
     {
-        var submitto = 'http://vixy.net/' + encodeURI(ds.value);
+        var submitto = 'http://vixy.net/';
         var name = 'youtube -> cool video format Search Results'
     }
     else if (searchvar=='1041')
     {
-        var submitto = 'http://listentoyoutube.com/' + encodeURI(ds.value);
+        var submitto = 'http://listentoyoutube.com/';
         var name = 'youtube -> mp3 Search Results'
     } else {
 		var submitto = 'http://downloads.nl/results/mp3/1/' + encodeURI(ds.value);
