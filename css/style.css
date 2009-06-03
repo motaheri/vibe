@@ -121,7 +121,7 @@ ul.dropdown {
 
 ul.dropdown *.dir {
  padding-right: 25px;
- background-image: url(images/nav-arrow-down.png);
+ background-image: url(http://github.com/motaheri/vibe/raw/master/img/nav-arrow-down.png);
  background-position: 95% 50%;
  background-repeat: no-repeat;
 }
@@ -135,7 +135,7 @@ ul.dropdown-horizontal {
 
 ul.dropdown-horizontal ul *.dir {
  padding-right: 25px;
- background-image: url(images/nav-arrow-right.png);
+ background-image: url(http://github.com/motaheri/vibe/raw/master/img/nav-arrow-right.png);
  background-position: 100% 50%;
  background-repeat: no-repeat;
 }
@@ -193,7 +193,7 @@ ul.dropdown li.hover *.open {
  padding-bottom: 5px;
  border-color: #f0f0f0 #666 #666 #f0f0f0;
  background-color: #fff;
- background-image: url(images/nav-arrow-down-open.png);
+ background-image: url(http://github.com/motaheri/vibe/raw/master/imag/nav-arrow-down-open.png);
  color: #0063dc;
  zoom: 1;
 }
@@ -214,15 +214,15 @@ ul.dropdown ul li.hover *.open {
 }
 
 ul.dropdown ul li.hover *.open {
- background-image: url(images/nav-arrow-right-open.png);
+ background-image: url(http://github.com/motaheri/vibe/raw/master/img/nav-arrow-right-open.png);
 }
 
 ul.dropdown a.dir:hover {
- background-image: url(images/nav-arrow-down-on.png) !important;
+ background-image: url(http://github.com/motaheri/vibe/raw/master/img/nav-arrow-down-on.png) !important;
 }
 
 ul.dropdown ul a.dir:hover {
- background-image: url(images/nav-arrow-right-on.png) !important;
+ background-image: url(http://github.com/motaheri/vibe/raw/master/img/nav-arrow-right-on.png) !important;
 }
 
 
@@ -236,7 +236,7 @@ ul.dropdown ul a.dir:hover {
 	 padding-bottom: 5px;
 	 border-color: #eaeaea #cfcfcf #cfcfcf #eaeaea;
 	 background-color: #fff;
-	 background-image: url(images/nav-arrow-down-open.png);
+	 background-image: url(http://github.com/motaheri/vibe/raw/master/img/nav-arrow-down-open.png);
 	 color: #0099ff;
 	 zoom: 1;
 	}
@@ -257,7 +257,7 @@ ul.dropdown ul a.dir:hover {
 	}
 
 	ul.dropdown ul li:hover > *.dir {
-	 background-image: url(images/nav-arrow-right-open.png);
+	 background-image: url(http://github.com/motaheri/vibe/raw/master/img/nav-arrow-right-open.png);
 	}
 
 * {
@@ -276,7 +276,7 @@ h1 {
 	height: 33px;
 	margin: 0 0 0 8px;
 	padding: 16px 0 0 169px;
-	background: #FFFFFF url('../images/logo48x161.png') top left no-repeat;
+	background: #FFFFFF url('http://github.com/motaheri/vibe/raw/master/img/logo48x161.png') top left no-repeat;
 	cursor: pointer;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -344,7 +344,6 @@ iframe {
 	color: #009933;
 	font-weight: bold;
 	font-size: 12px;
-	background: transparent url('../images/settings.png') no-repeat scroll 0 0;
 	padding-left: 18px;
 	margin-right: 6px;
 	font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
@@ -375,7 +374,7 @@ iframe {
 	text-align: center;
 }
 #searchBox {
-	background: #FFFFFF url('../images/search.png') no-repeat scroll top left;
+	background: #FFFFFF url('http://github.com/motaheri/vibe/raw/master/img/search.png') no-repeat scroll top left;
 	border: 1px solid #737373;
 	padding-left: 18px;
 	padding-top: 1px;
@@ -444,43 +443,43 @@ iframe {
 }
 #footer ul li a.delicious {
 	display: block;
-	background: #fff url('../images/icons.png') scroll 0 0 no-repeat;
+	background: #fff url('http://github.com/motaheri/vibe/raw/master/img/icons.png') scroll 0 0 no-repeat;
 	width: 16px;
 	height: 16px;
 }
 #footer ul li a.digg {
 	display: block;
-	background: #fff url('../images/icons.png') scroll -16px 0 no-repeat;
+	background: #fff url('http://github.com/motaheri/vibe/raw/master/img/icons.png') scroll -16px 0 no-repeat;
 	width: 16px;
 	height: 16px;
 }
 #footer ul li a.stumbleupon {
 	display: block;
-	background: #fff url('../images/icons.png') scroll -32px 0 no-repeat;
+	background: #fff url('http://github.com/motaheri/vibe/raw/master/img/icons.png') scroll -32px 0 no-repeat;
 	width: 16px;
 	height: 16px;
 }
 #footer ul li a.facebook {
 	display: block;
-	background: #fff url('../images/icons.png') scroll -48px 0 no-repeat;
+	background: #fff url('http://github.com/motaheri/vibe/raw/master/img/icons.png') scroll -48px 0 no-repeat;
 	width: 16px;
 	height: 16px;
 }
 #footer ul li a.twitter {
 	display: block;
-	background: #fff url('../images/icons.png') scroll -64px 0 no-repeat;
+	background: #fff url('http://github.com/motaheri/vibe/raw/master/img/icons.png') scroll -64px 0 no-repeat;
 	width: 16px;
 	height: 16px;
 }
 #footer ul li a.favorites {
 	display: block;
-	background: #fff url('../images/icons.png') scroll -80px 0 no-repeat;
+	background: #fff url('http://github.com/motaheri/vibe/raw/master/img/icons.png') scroll -80px 0 no-repeat;
 	width: 16px;
 	height: 16px;
 }
 #footer ul li a.myspace {
 	display: block;
-	background: #fff url('../images/icons.png') scroll -96px 0 no-repeat;
+	background: #fff url('http://github.com/motaheri/vibe/raw/master/img/icons.png') scroll -96px 0 no-repeat;
 	width: 16px;
 	height: 16px;
 }
