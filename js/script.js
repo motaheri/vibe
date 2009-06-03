@@ -687,7 +687,7 @@ function getResults()
     }
 	else if (searchvar=='1045')
     {
-        var submitto = 'http://file2hd';
+        var submitto = 'http://file2hd.com/';
         var name = 'file2hd Search Results'
     }
     else if (searchvar=='1029')
