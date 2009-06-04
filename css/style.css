@@ -98,7 +98,6 @@ ul.dropdown {
 	/* -- level mark -- */
 
 	ul.dropdown ul {
-	 width: 150px;
 	 padding: 3px 6px;
 	 border-style: solid;
 	 border-width: 1px;
@@ -106,7 +105,7 @@ ul.dropdown {
 	 background-color: #fff;
 	 font-weight: normal;
 	 font-size: 11px;
-	 width:200px;
+	 width:212px;
 	}
 
 		ul.dropdown ul li {
