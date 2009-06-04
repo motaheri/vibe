@@ -171,7 +171,43 @@ function getResults()
     {
         var submitto = 'http://listentoyoutube.com/';
         var name = 'youtube -> mp3 Search Results'
-    } else {
+    }
+	else if (searchvar=='1043')
+    {
+        var submitto = 'http://thesixtyone.com/';
+        var name = 'thesixtyone'
+    }
+	else if (searchvar=='1049')
+    {
+        var submitto = 'http://aurgasm.us/';
+        var name = 'aurgasm'
+    }
+	else if (searchvar=='1046')
+    {
+        var submitto = 'http://daytrotter.com/';
+        var name = 'Daytrotter'
+    }
+	else if (searchvar=='1051')
+    {
+        var submitto = 'http://pitchfork.com/';
+        var name = 'Pitchfork'
+    }
+	else if (searchvar=='1050')
+    {
+        var submitto = 'http://letmelikeit.blogspot.com/';
+        var name = 'Let Me Like It'
+    }
+	else if (searchvar=='1048')
+    {
+        var submitto = 'http://moteldemoka.com/';
+        var name = 'motel de moka'
+    }
+	else if (searchvar=='1047')
+    {
+        var submitto = 'http://mog.com/';
+        var name = 'mog'
+    }
+	else {
 		var submitto = 'http://downloads.nl/results/mp3/1/' + encodeURI(ds.value);
         var name = 'downloads.nl (best) Search Results'
 		
