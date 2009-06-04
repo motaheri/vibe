@@ -217,4 +217,4 @@ function getResults()
         window.open(submitto);
         return false;
     }
-}
+} 
