@@ -207,6 +207,11 @@ function getResults()
         var submitto = 'http://mog.com/';
         var name = 'mog'
     }
+	else if (searchvar=='1052')
+    {
+        var submitto = 'http://wearsthetrousers.com/';
+        var name = 'wears the trousers'
+    }	
 	else {
 		var submitto = 'http://downloads.nl/results/mp3/1/' + encodeURI(ds.value);
         var name = 'downloads.nl (best) Search Results'
