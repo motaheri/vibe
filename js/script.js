@@ -144,7 +144,7 @@ function getResults()
     }
     else if (searchvar=='1032')
     {
-        var submitto = 'http://playlist.com/searchbeta/tracks#' + encodeURI(ds.value);
+        var submitto = 'http://playlist.com/search/tracks?ajax_off_1=1&searchfor=' + encodeURI(ds.value);
         var name = 'playlist (stream) Search Results'
     }
     else if (searchvar=='1033')
