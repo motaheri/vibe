@@ -122,6 +122,11 @@ function getResults()
         var submitto = 'http://beemp3.com/index.php?Submit=Search&st=all&q=' + encodeURI(ds.value);
         var name = 'beeMP3 Search Results'
     }
+	else if (searchvar=='1053')
+    {
+         var submitto = 'http://search.4shared.com/network/search.jsp?sortType=1&sortOrder=1&sortmode=1&searchmode=3&specifySize=true&sizeCriteria=atleast&sizevalue=2&searchName=' + encodeURI(ds.value);
+        var name = '4shared (good for album downloads) Search Results'
+    }
 	else if (searchvar=='1045')
     {
         var submitto = 'http://file2hd.com/';
@@ -211,7 +216,7 @@ function getResults()
     {
         var submitto = 'http://wearsthetrousers.com/';
         var name = 'wears the trousers'
-    }	
+    }
 	else {
 		var submitto = 'http://downloads.nl/results/mp3/1/' + encodeURI(ds.value);
         var name = 'downloads.nl (best) Search Results'
