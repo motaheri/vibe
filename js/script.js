@@ -124,8 +124,13 @@ function getResults()
     }
 	else if (searchvar=='1053')
     {
-         var submitto = 'http://search.4shared.com/network/search.jsp?sortType=1&sortOrder=1&sortmode=1&searchmode=3&specifySize=true&sizeCriteria=atleast&sizevalue=2&searchName=' + encodeURI(ds.value);
+        var submitto = 'http://search.4shared.com/network/search.jsp?sortType=1&sortOrder=1&sortmode=1&searchmode=3&specifySize=true&sizeCriteria=atleast&sizevalue=2&searchName=' + encodeURI(ds.value);
         var name = '4shared (album downloads) Search Results'
+    }
+	else if (searchvar=='1054')
+    {
+        var submitto = 'http://mp3zr.com/?q=' + encodeURI(ds.value);
+        var name = 'mp3zr (good) Search Results'
     }
 	else if (searchvar=='1045')
     {
